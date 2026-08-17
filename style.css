@@ -215,22 +215,23 @@ section h2 {
 ========================= */
 
 @media (max-width: 768px) {
-    
-        .menu-toggle {
-        display: block;
-    }
+
+    /* NAVIGATION */
 
     .navbar {
+        padding: 20px 5%;
         position: relative;
+    }
+
+    .menu-toggle {
+        display: block;
     }
 
     .nav-links {
         display: none;
 
         position: absolute;
-
         top: 100%;
-
         left: 0;
 
         width: 100%;
@@ -254,8 +255,130 @@ section h2 {
         padding: 12px 0;
     }
 
+
+    /* HERO */
+
+    .hero {
+        min-height: auto;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        padding: 60px 5%;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 55px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
+
+    .hero-description {
+        font-size: 16px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+
+        align-items: stretch;
+
+        width: 100%;
+    }
+
+    .button {
+        text-align: center;
+    }
+
+
+    /* ALL SECTIONS */
+
+    section:not(.hero) {
+        padding: 70px 5%;
+    }
+
+    section h2 {
+        font-size: 38px;
+    }
+
+
+    /* ABOUT */
+
+    .about-section {
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        gap: 40px;
+    }
+
+    .about-text h2 {
+        font-size: 40px;
+    }
+
+
+    /* SKILLS */
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-heading h2 {
+        font-size: 40px;
+    }
+
+
+    /* PROJECTS */
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-heading h2 {
+        font-size: 40px;
+    }
+
+
+    /* EXPERIENCE */
+
+    .timeline {
+        width: 100%;
+    }
+
+    .timeline-item {
+        padding-left: 40px;
+    }
+
+    .timeline-content {
+        padding: 22px;
+    }
+
+
+    /* CONTACT */
+
+    .contact-container {
+        grid-template-columns: 1fr;
+
+        gap: 50px;
+    }
+
+    .contact-heading h2 {
+        font-size: 40px;
+    }
+
+
+    /* FOOTER */
+
     .footer-content {
         flex-direction: column;
+
         align-items: flex-start;
     }
 
@@ -267,6 +390,7 @@ section h2 {
         gap: 15px;
     }
 
+}
     .navbar {
         padding: 20px 5%;
     }
