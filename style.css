@@ -1092,27 +1092,6 @@ section h2 {
 }
 
 
-.hero-visual p {
-    margin-bottom: 15px;
-
-    color: #dce5ef;
-
-    font-size: 15px;
-}
-
-.hero-icon {
-    font-size: 50px;
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-
-    width: 100%;
-
-    margin-bottom: 20px;
-}
 
 html {
     scroll-behavior: smooth;
